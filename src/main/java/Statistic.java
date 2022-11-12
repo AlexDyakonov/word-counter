@@ -13,7 +13,7 @@ public class Statistic {
     public static String getFileName(){
         Scanner input = new Scanner(System.in);
         System.out.println("Input file name (with .txt): ");
-        return input.nextLine();
+        return ("src/main/java/" + input.nextLine());
     }
 
     public static HashMap<String, Integer> input() {
